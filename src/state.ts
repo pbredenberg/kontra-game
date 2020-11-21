@@ -1,3 +1,3 @@
 export const playerStats = {
-    xp: 0,
+  xp: 0,
 };
