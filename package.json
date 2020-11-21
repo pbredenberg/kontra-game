@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "commitlint": "commitlint --from fcc75b5",
-    "lint": "npm run commitlint && prettier --check .",
-    "test": "npm run lint"
+    "commitlint": "commitlint --from 9a1e55a",
+    "prettier": "prettier --check .",
+    "lint": "npm run commitlint && npm run prettier",
+    "test": "echo \"no tests yet\""
   },
   "author": "",
   "license": "ISC",
