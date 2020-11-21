@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "commitlint": "commitlint --from 9a1e55a",
+    "commitlint": "commitlint --from fcc75b5",
     "prettier": "prettier --check .",
     "lint": "npm run commitlint && npm run prettier",
     "test": "echo \"no tests yet\""
