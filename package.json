@@ -6,7 +6,7 @@
   "scripts": {
     "commitlint": "commitlint --from fcc75b5",
     "lint": "npm run commitlint && prettier --check .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint"
   },
   "author": "",
   "license": "ISC",
